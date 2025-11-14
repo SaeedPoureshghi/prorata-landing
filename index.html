@@ -5,180 +5,234 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>ProRata Wallet - Automate Crypto Asset Sharing with Smart Contracts</title>
+    <meta name="title" content="ProRata Wallet - Automate Crypto Asset Sharing with Smart Contracts">
+    <meta name="description"
+          content="Easily and fairly distribute your crypto assets among multiple addresses with ProRata Wallet's customizable smart contracts. Secure, transparent, and user-friendly blockchain-based asset sharing solution.">
+    <meta name="keywords"
+          content="ProRata Wallet, crypto wallet, smart contracts, blockchain, asset sharing, cryptocurrency distribution, Web3 wallet, decentralized finance, DeFi, crypto asset management, automated asset distribution, blockchain wallet">
+    <meta name="author" content="ProRata Wallet">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prorata.saeedpoureshghi.dev/">
+    <meta property="og:title" content="ProRata Wallet - Automate Crypto Asset Sharing with Smart Contracts">
+    <meta property="og:description"
+          content="Easily and fairly distribute your crypto assets among multiple addresses with ProRata Wallet's customizable smart contracts. Secure, transparent, and user-friendly blockchain-based asset sharing solution.">
+    <meta property="og:image" content="./assets/logo_sm.png">
+    <meta property="og:site_name" content="ProRata Wallet">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://prorata.saeedpoureshghi.dev/">
+    <meta property="twitter:title" content="ProRata Wallet - Automate Crypto Asset Sharing with Smart Contracts">
+    <meta property="twitter:description"
+          content="Easily and fairly distribute your crypto assets among multiple addresses with ProRata Wallet's customizable smart contracts. Secure, transparent, and user-friendly blockchain-based asset sharing solution.">
+    <meta property="twitter:image" content="./assets/logo_sm.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/logo_sm.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://prorata.saeedpoureshghi.dev/">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="index.css">
-    <title>ProRota Wallet</title>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ProRata Wallet",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Automate asset sharing with smart contracts. Easily and fairly distribute your crypto assets among multiple addresses with ProRata Wallet's customizable smart contracts.",
+      "featureList": [
+        "Smart Contract-Based Sharing",
+        "User-Friendly Interface",
+        "Secure and Transparent"
+      ],
+      "screenshot": "./assets/intro3.png"
+    }
+    </script>
 </head>
 
 <body>
 
-    <div class="toup" onclick="topFunction()" id="toup">
+    <button class="toup" onclick="topFunction()" id="toup" aria-label="Scroll to top">
         <ion-icon name="arrow-up-outline" size="large"></ion-icon>
-    </div>
-    <div class="header">
-        <div class="logo">
-            <img src="./assets/logo_sm.png" width="150px" height="71px" alt="ProRata Wallet Logo">
-            <h1 class="logotext">ProRata Wallet</h1>
-        </div>
-        <div>
-            <ul class="button-group">
-                <li><a href="#hiw">How Works?</a></li>
-                <li><a href="#fth">Features</a></li>
-                <li><a href="#ca">Contact us</a></li>
-            </ul>
-        </div>
+    </button>
 
-    </div>
-    <div class="mobilemenu">
-        <ul class="button-group">
-            <li><a href="#hiw">How Works?</a></li>
-            <li><a href="#fth">Features</a></li>
-            <li><a href="#ca">Contact us</a></li>
-        </ul>
-    </div>
-    <div class="intro">
-        <div class="title">
+    <header class="header" role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="logo">
+                <img src="./assets/logo_sm.png" width="150" height="71" alt="ProRata Wallet Logo">
+                <h1 class="logotext">ProRata Wallet</h1>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu"
+                    aria-expanded="false">
+                <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+                <ion-icon name="close-outline" class="close-icon" style="display: none;"></ion-icon>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hiw">How It Works</a></li>
+                <li><a href="#fth">Features</a></li>
+                <li><a href="#ca">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero" role="main">
+        <div class="hero-content">
             <h2 class="headline">
                 Automate Asset Sharing with Smart Contracts
             </h2>
-            <h3 class="subheadline">
+            <p class="subheadline">
                 Easily and Fairly Distribute Your Crypto Assets Among Multiple Addresses with ProRata Wallet's
                 Customizable Smart Contracts
-            </h3>
+            </p>
             <div class="cta-buttons">
-                <ul class="button-group">
-                    <li>
-                        <button class="cta" onclick="window.location.href='https://prorata.saeedpoureshghi.dev';" >Start Sharing</button>
-                    </li>
-                </ul>
+                <a href="https://prorata.saeedpoureshghi.dev" class="cta primary"
+                   aria-label="Start using ProRata Wallet">Start Sharing</a>
             </div>
         </div>
-        <div class="image">
-            <img src="./assets/intro2.png" alt="">
+        <div class="hero-image">
+            <img src="./assets/intro3.png" alt="ProRata Wallet - Smart Contract Asset Sharing Interface">
         </div>
-    </div>
-    <div style="display: flex;justify-content: center;align-items: center;padding: 20px;">
-        <span class="sectiontitle">
-            Features
-        </span>
-
-    </div>
-    <div class="features" id="fth">
-        <div class="featureItem">
-            <div class="icon"><ion-icon name="code-working-outline"></ion-icon></div>
-            <div class="title">Smart Contract-Based Sharing</div>
-            <div class="desc">
-                ProRata Wallet uses smart contracts to allow users to easily share received assets with other addresses
-                they specify. Users can set the percentage of assets to be shared with each address, and the smart
-                contract automatically distributes the funds accordingly.
-            </div>
-        </div>
-
-        <div class="featureItem">
-            <div class="icon"><ion-icon name="happy-outline"></ion-icon></div>
-            <div class="title">User-Friendly Interface</div>
-            <div class="desc">
-                ProRata Wallet has a user-friendly interface that makes it easy for users to manage their assets and
-                view their sharing settings. The web3-based platform allows users to interact with the wallet from any
-                device with an internet connection.
-            </div>
-        </div>
-
-        <div class="featureItem">
-            <div class="icon"><ion-icon name="lock-closed-outline"></ion-icon></div>
-            <div class="title">Secure and Transparent</div>
-            <div class="desc">
-                ProRata Wallet is built on the blockchain, ensuring the security and transparency of all transactions.
-                The smart contract-based sharing system is tamper-proof, and users can verify all transactions on the
-                blockchain. Additionally, ProRata Wallet does not store any private keys or personal information,
-                providing users with full control over their assets.
-            </div>
-        </div>
-
-    </div>
-
-    <div style="display: flex;justify-content: center;align-items: center;padding: 20px;">
-        <span class="sectiontitle">
-            How It Works
-        </span>
-
-    </div>
-    <div class="howitworks" id="hiw">
-        <div class="steps">
-            <div class="stepimage">
-                <span>1</span>
-            </div>
-            <div class="stepdesc">
-                <div class="steptitle">
-                    Connect Wallet
-                </div>
-                <div>
-                    To connect your wallet to ProRata, simply click on the "Connect Wallet" button located at the top
-                    right corner of the page. You will then be prompted to select your preferred wallet provider, such
-                    as MetaMask or Trust Wallet. Once you have selected your wallet provider, a pop-up window will
-                    appear asking you to authorize the connection. After you have authorized the connection, your wallet
-                    will be linked to ProRata, and you will be able to view and manage your assets directly from the
-                    platform. Connecting your wallet to ProRata is a quick and easy process, allowing you to easily
-                    track and manage your assets with just a few clicks.
+    </section>
+    <section class="features-section" id="fth">
+        <h2 class="section-title">Features</h2>
+        <div class="features">
+            <div class="featureItem">
+                <div class="icon"><ion-icon name="code-working-outline"></ion-icon></div>
+                <div class="title">Smart Contract-Based Sharing</div>
+                <div class="desc">
+                    ProRata Wallet uses smart contracts to allow users to easily share received assets with other
+                    addresses
+                    they specify. Users can set the percentage of assets to be shared with each address, and the smart
+                    contract automatically distributes the funds accordingly.
                 </div>
             </div>
-        </div>
-        <div class="steps">
-            <div class="stepdesc">
-                <div class="steptitle">
-                    Create ProRata Wallet
-                </div>
-                <div>
-                    To create a ProRata smart wallet, simply follow the steps on the app. First, ensure that you have
-                    connected your wallet to the app via Web3. Next, you can create a new ProRata smart wallet. Set the
-                    share percentage for each address that will receive a portion of the assets, and the smart contract
-                    will automatically manage the distribution of the assets based on the defined percentages. The
-                    ProRata smart wallet is a secure and transparent way to manage asset sharing with others, without
-                    the need for manual tracking or management.
-                </div>
-            </div>
-            <div class="stepimage2">
-                <span>2</span>
-            </div>
-        </div>
-        <div class="steps">
-            <div class="stepimage">
-                <span>3</span>
-            </div>
-            <div class="stepdesc">
-                <div class="steptitle">
-                    Share ProRata Address
-                </div>
-                <div>
-                    Once you have created your ProRata wallet, you can easily share the wallet address with others who
-                    want to contribute to the asset pool. When someone sends assets to the shared ProRata wallet
-                    address, the smart contract automatically distributes those assets to the specified addresses based
-                    on the percentage of shares defined for each address. This ensures a transparent and fair
-                    distribution of assets among all contributors. By sharing the ProRata wallet address, you can easily
-                    collaborate with others and pool your assets together to achieve common goals, whether it's
-                    investing in a project or managing a joint expense.
-                </div>
-            </div>
-        </div>
 
-    </div>
+            <div class="featureItem">
+                <div class="icon"><ion-icon name="happy-outline"></ion-icon></div>
+                <div class="title">User-Friendly Interface</div>
+                <div class="desc">
+                    ProRata Wallet has a user-friendly interface that makes it easy for users to manage their assets and
+                    view their sharing settings. The web3-based platform allows users to interact with the wallet from
+                    any
+                    device with an internet connection.
+                </div>
+            </div>
 
-    <div style="display: flex;justify-content: center;align-items: center;padding: 20px;">
-        <!-- <span class="sectiontitle">
-            Contact Us
-        </span> -->
+            <div class="featureItem">
+                <div class="icon"><ion-icon name="lock-closed-outline"></ion-icon></div>
+                <div class="title">Secure and Transparent</div>
+                <div class="desc">
+                    ProRata Wallet is built on the blockchain, ensuring the security and transparency of all
+                    transactions.
+                    The smart contract-based sharing system is tamper-proof, and users can verify all transactions on
+                    the
+                    blockchain. Additionally, ProRata Wallet does not store any private keys or personal information,
+                    providing users with full control over their assets.
+                </div>
+            </div>
+    </section>
 
-    </div>
-    <div class="contactus" id="ca">
+    <section class="how-it-works-section" id="hiw">
+        <h2 class="section-title">How It Works</h2>
+        <div class="howitworks">
+            <div class="steps">
+                <div class="stepimage">
+                    <span>1</span>
+                </div>
+                <div class="stepdesc">
+                    <div class="step-number-mobile">1</div>
+                    <div class="steptitle">
+                        Connect Wallet
+                    </div>
+                    <div>
+                        To connect your wallet to ProRata, simply click on the "Connect Wallet" button located at the
+                        top
+                        right corner of the page. You will then be prompted to select your preferred wallet provider,
+                        such
+                        as MetaMask or Trust Wallet. Once you have selected your wallet provider, a pop-up window will
+                        appear asking you to authorize the connection. After you have authorized the connection, your
+                        wallet
+                        will be linked to ProRata, and you will be able to view and manage your assets directly from the
+                        platform. Connecting your wallet to ProRata is a quick and easy process, allowing you to easily
+                        track and manage your assets with just a few clicks.
+                    </div>
+                </div>
+            </div>
+            <div class="steps">
+                <div class="stepdesc">
+                    <div class="step-number-mobile">2</div>
+                    <div class="steptitle">
+                        Create ProRata Wallet
+                    </div>
+                    <div>
+                        To create a ProRata smart wallet, simply follow the steps on the app. First, ensure that you
+                        have
+                        connected your wallet to the app via Web3. Next, you can create a new ProRata smart wallet. Set
+                        the
+                        share percentage for each address that will receive a portion of the assets, and the smart
+                        contract
+                        will automatically manage the distribution of the assets based on the defined percentages. The
+                        ProRata smart wallet is a secure and transparent way to manage asset sharing with others,
+                        without
+                        the need for manual tracking or management.
+                    </div>
+                </div>
+                <div class="stepimage2">
+                    <span>2</span>
+                </div>
+            </div>
+            <div class="steps">
+                <div class="stepimage">
+                    <span>3</span>
+                </div>
+                <div class="stepdesc">
+                    <div class="step-number-mobile">3</div>
+                    <div class="steptitle">
+                        Share ProRata Address
+                    </div>
+                    <div>
+                        Once you have created your ProRata wallet, you can easily share the wallet address with others
+                        who
+                        want to contribute to the asset pool. When someone sends assets to the shared ProRata wallet
+                        address, the smart contract automatically distributes those assets to the specified addresses
+                        based
+                        on the percentage of shares defined for each address. This ensures a transparent and fair
+                        distribution of assets among all contributors. By sharing the ProRata wallet address, you can
+                        easily
+                        collaborate with others and pool your assets together to achieve common goals, whether it's
+                        investing in a project or managing a joint expense.
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="contactus" id="ca" role="contentinfo">
         <div class="linkswrapper">
-            <div style="display: flex;flex-direction: column;justify-content: center;">
-                <img src="./assets/logo_sm.png" alt="logo" width="150px" height="70px">
+            <div class="footer-brand">
+                <img src="./assets/logo_sm.png" alt="ProRata Wallet Logo" width="150" height="70">
                 <span class="linkstitle">ProRata Wallet</span>
-                <span></span>
             </div>
             <ul class="links">
-               <li><ion-icon name="logo-twitter" style="margin:0 10px"></ion-icon></li>
-                <li><ion-icon name="logo-linkedin" style="margin:0 10px"></ion-icon></li>
-                <li><ion-icon name="logo-github" style="margin:0 10px"></ion-icon></li>
+                <li><a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a></li>
             </ul>
         </div>
         <div class="pagelinks">
@@ -206,38 +260,76 @@
         </div>
 
         <div class="newsletter">
-            <div style="padding: 10px 0;">
+            <div class="newsletter-title">
                 Subscribe Our Newsletter
             </div>
             <form>
-                <input type="email" id="email" name="email" placeholder="Email address"/>
+                <input type="email" id="email" name="email" placeholder="Email address" />
                 <input type="submit" value="Submit">
             </form>
         </div>
 
-        
-
-    </div>
+    </footer>
 
 
 
     <script>
+        // Scroll to top functionality
         let toup = document.getElementById('toup');
         window.onscroll = function () { scrollFunction() };
         function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop>20) {
-                toup.style.opacity = 1
-            }else{
-                toup.style.opacity = 0
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                toup.style.opacity = 1;
+                toup.style.pointerEvents = 'auto';
+            } else {
+                toup.style.opacity = 0;
+                toup.style.pointerEvents = 'none';
             }
         }
+
+        // Mobile menu toggle
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        mobileMenuToggle.addEventListener('click', function () {
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('active');
+            this.classList.toggle('active');
+
+            // Toggle menu/close icons
+            const menuIcon = this.querySelector('.menu-icon');
+            const closeIcon = this.querySelector('.close-icon');
+            if (isExpanded) {
+                menuIcon.style.display = 'block';
+                closeIcon.style.display = 'none';
+            } else {
+                menuIcon.style.display = 'none';
+                closeIcon.style.display = 'block';
+            }
+        });
+
+        // Close mobile menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                navMenu.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                mobileMenuToggle.classList.remove('active');
+                const menuIcon = mobileMenuToggle.querySelector('.menu-icon');
+                const closeIcon = mobileMenuToggle.querySelector('.close-icon');
+                menuIcon.style.display = 'block';
+                closeIcon.style.display = 'none';
+            });
+        });
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
+</html>
 
 </html>
